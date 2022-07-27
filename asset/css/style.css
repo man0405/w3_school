@@ -313,6 +313,7 @@ html{
     max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    animation: modal-fade-in ease .4s;
 }
 
 .modal-header {
@@ -387,4 +388,17 @@ html{
 
 .modal.open {
     display: flex;
+}
+
+
+@keyframes modal-fade-in{
+    from{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
