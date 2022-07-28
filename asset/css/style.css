@@ -17,7 +17,7 @@ html{
 }
 
 .text-white{
-    color: #fff !important;
+    color: #fff;
 }
 
 .btn{
@@ -35,8 +35,8 @@ html{
 }
 
 .row{
-    margin-left:8px;
-    margin-right: 8px;
+    margin-left:-8px;
+    margin-right:-8px;
 }
 
 .row::after{
@@ -90,7 +90,8 @@ html{
     top:0;
     left:0;
     right:0;
-    z-index: 3;    
+    z-index: 3;   
+    overflow: hidden; 
 }
 
 #nav {
@@ -155,16 +156,25 @@ html{
     font-size: 14px;
 }
 
+#header .menu-mobile-btn,
 #header .search-btn{
     float: right;
     cursor: pointer;
     padding: 0 21px;
 }
-
+#header .menu-icon,
 #header .search-icon{
     font-size: 20px;
     line-height:46px;
 
+}
+
+#header .menu-mobile-btn:hover{
+    background-color: #ccc;
+}
+
+#header .menu-mobile-btn:hover .menu-icon{
+    color:#000;
 }
 
 #header .search-btn:hover{
@@ -201,9 +211,13 @@ html{
 
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+
     padding: 64px 0 112px;
+    padding-left: 16px;
+    padding-right: 16px;
 
 }
 
