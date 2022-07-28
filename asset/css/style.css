@@ -156,6 +156,13 @@ html{
     font-size: 14px;
 }
 
+#header .menu-mobile-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .menu-mobile-btn,
 #header .search-btn{
     float: right;
