@@ -7,9 +7,14 @@
 }
 
 @media (max-width: 740px) {
-
+    
+    .s-full-width,
     .s-col-full{
-        width: 100%;
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
     }
     
     #header{
@@ -54,5 +59,9 @@
 
     #content .member-avt{
         width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 16px;
     }
 }
