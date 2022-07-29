@@ -347,6 +347,14 @@ html{
     line-height: 1.4;
 }
 
+.contact-info a{
+    color: #101afe;
+    opacity: 0.8;
+}
+.contact-info a:hover{
+    opacity: 1;
+}
+
 .contact-info i[class*="ti-"]{
     width: 30px;
     display: inline-block;
