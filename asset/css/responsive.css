@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 740px) {
+
+    .s-col-full{
+        width: 100%;
+    }
     
     #header{
         overflow: hidden;
@@ -45,5 +49,14 @@
     #nav .subnav a{
         color: #fff;
         padding: 5px 41px;
+    }
+
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-avt{
+        width: 60%;
     }
 }
