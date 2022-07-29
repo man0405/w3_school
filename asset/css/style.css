@@ -91,7 +91,7 @@ html{
     left:0;
     right:0;
     z-index: 3;   
-    overflow: hidden; 
+
 }
 
 #nav {
@@ -160,7 +160,7 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    display: none;
+    display: none;  
 }
 
 #header .menu-mobile-btn,
